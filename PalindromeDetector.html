@@ -6,15 +6,25 @@
 
     <meta charset="UTF-8">
     <title>Reverse in Place w/Palindrome Detector</title>
+    <link rel="stylesheet" href="app.css" type="text/css" /> 
 
   </head>
 
   <body>
 
-    <h1>Reverse in Place w/Palindrome Detector</h1>
-    <h3>Your result should appear in the div below:</h3>
+    <h1>Palindrome Detector</h1>
+    <p class="text">A palindrome is a word or sentence that's spelled the same way both forward and backward, ignoring punctuation,case, and spacing.
+    Eg: "racecar","RaceCar","never odd or even", "eye", "A man, a plan, a canal. Panama"</p>
 
-    <div id="result"></div>
+    <div class="control">
+      <input class="inputText" type="text" 
+               placeholder="Enter some text">
+      <button class="check">Check</button>
+    </div>
+
+    <p>Your result should appear below:</p>
+
+    <h3 id="result"></h3>
 
     <!-- Script -->
     <script type="text/javascript" src="app.js"></script>
